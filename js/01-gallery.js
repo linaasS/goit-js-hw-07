@@ -22,10 +22,7 @@ galleryList.insertAdjacentHTML('beforeend', galleryMarkup);
 
 function onEscClick(event) {
   if (event.key === 'Escape') {
-    const instance = basicLightbox.get();
-    if (instance) {
       instance.close();
-    }
   }
 }
 
