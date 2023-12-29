@@ -46,12 +46,4 @@ galleryList.addEventListener('click', (event) => {
   });
 
   instance.show();
-
-  instance.element().addEventListener('click', (event) => {
-    if (event.target.nodeName !== 'IMG') {
-      instance.close();
-    }
-  });
 });
-
-document.addEventListener('keydown', onEscClick);
